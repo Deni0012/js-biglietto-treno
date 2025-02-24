@@ -12,3 +12,6 @@ if (age < 18) {
 } else if (age >= 65) {
     prezzoTotale = prezzoTotale - (prezzoTotale * 40) / 100; // Sconto del 40%
 }
+
+// Formattiamo il prezzo finale in forma umana con due decimali al massimo (centsimi)
+console.log (prezzoTotale = prezzoTotale.toFixed(2));
