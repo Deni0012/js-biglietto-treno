@@ -4,7 +4,7 @@
 
 ### Descrizione
 
-Questo progetto calcola il prezzo di un biglietto ferroviario in base ai chilometri da percorrere e all'età del passeggero.
+Questo programma calcola il prezzo di un biglietto ferroviario in base ai chilometri da percorrere e all'età del passeggero.
 Vengono applicati sconti in base all'età:
 
 - **Sconto del 20%** per i minorenni (meno di 18 anni)
@@ -29,4 +29,12 @@ Il prezzo base del biglietto è di **0.21€ per km.**
 
 5. **Mostrare il risultato** sia nella console che in un *alert*.
 
+### Esecuzione del codice 
 
+- Aprire un browser con la console JavaScript.
+
+- Aggiungere lo script "app.js" nel file index.html.
+
+- Inserire i dati richiesti nei *prompt*.
+
+- Visualizzare che il risultato sia nella console e in un popup di *alert*.
