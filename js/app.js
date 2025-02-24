@@ -2,6 +2,8 @@
 const km = prompt("Inserisci il numero di km da percorrere:");
 const age = prompt("Inserisci la tua età:");
 
+
+
 // Definiamo il prezzo al km
 const prezzoKm = 0.21;
 let prezzoTotale = km * prezzoKm;
@@ -14,4 +16,9 @@ if (age < 18) {
 }
 
 // Formattiamo il prezzo finale in forma umana con due decimali al massimo (centsimi)
-console.log (prezzoTotale = prezzoTotale.toFixed(2));
+prezzoTotale = prezzoTotale.toFixed(2)
+console.log(prezzoTotale);
+
+// Mostriamo il risultato con un alert
+console.log(`Il prezzo del biglietto è: € ${prezzoTotale}`);
+alert(`Il prezzo del biglietto è: € ${prezzoTotale}`);
